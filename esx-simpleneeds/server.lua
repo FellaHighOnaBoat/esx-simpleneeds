@@ -5,9 +5,9 @@ ESX = nil
 --Type = hunger/thirst/drunk - eat fills hunger, drink fills thirst, alcohol gives drunk effect
 
 local items = {
-    {name = 'food', type = 'eat', prop = 'prop_cs_burger_01'},
-    {name = 'drink', type = 'drink', prop = 'prop_ld_flow_bottle2'},
-    {name = 'booze', type = 'drunk', prop = 'prop_ld_flow_bottle2'}
+    {name = 'food', type = 'eat'},
+    {name = 'drink', type = 'drink'},
+    {name = 'booze', type = 'drunk'}
 }
 
 if Config.NewESX then
